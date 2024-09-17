@@ -5,9 +5,14 @@
 }
 
 .box1 {
-    background-color: rgb(91, 91, 91);
+    background-color: rgb(91,91,91);
     opacity: 60%;
     height: 913px;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .navOutline {
@@ -16,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 80px 0px 80px;
-   
+
 }
 
 .navContent {
@@ -24,7 +29,7 @@
     width: 1280px;
     display: flex;
     justify-content: space-between;
-    border-bottom: solid ;
+    border-bottom: solid;
 }
 
 .navInfo {
@@ -70,4 +75,115 @@ li {
     letter-spacing: 0.08em;
     text-align: center;
 
+}
+
+.OverlogoFirstText {
+    position: relative;
+    top: 28%;
+}
+
+.sushiLogoImg {
+    width: 662.12px;
+    height: 450px;
+    background-image: url("Union.png");
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.AuthenticSushi {
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: rgb(70, 18, 18);
+}
+
+.Omakase {
+    font-family: Bebas Kai;
+    font-size: 272px;
+    font-weight: 400;
+    line-height: 244.8px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+
+}
+
+.secondText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    color: #FFFFFF;
+    position: relative;
+    top: 2rem;
+
+}
+
+.PSecondText {
+    margin-bottom: 30%;
+    position: relative;
+    top: 45%;
+}
+
+.TableBook {
+    display: flex;
+    justify-content: space-around;
+    /* width: 80%; */
+    align-items: center;
+    width: 336px;
+    height: 52px;
+
+}
+
+.BookTableButton {
+
+    height: 100%;
+    width: 173px;
+    background-color: rgb(221,43,43);
+    color: #FFFFFF;
+    border: none;
+}
+
+.firstPageFooter {
+
+    width: 380px;
+    height: 100px;
+   
+    
+    position: relative;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.firstImg {
+    width: 35px;
+    height: 50px;
+   background-image: url(image\ 7.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.secondImg {
+    width: 77px;
+    height: 77px;
+    background-image: url(image\ 8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.thirdImg {
+    width: 79.45px;
+    height: 37.6px;
+    background-image: url(image\ 6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
